@@ -717,6 +717,12 @@ End Function
         <Field Name="Balance_LCYFormat">
           <DataField>Balance_LCYFormat</DataField>
         </Field>
+        <Field Name="City">
+          <DataField>City</DataField>
+        </Field>
+        <Field Name="Address">
+          <DataField>Address</DataField>
+        </Field>
         <Field Name="Document_Type">
           <DataField>Document_Type</DataField>
         </Field>
