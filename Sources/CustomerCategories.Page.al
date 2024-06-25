@@ -14,18 +14,19 @@ page 50100 "Customer Categories TUL"
             {
                 field("Code"; rec.Code)
                 {
-                    Caption = 'Code', Comment = 'CSY="Kód"';
                     ToolTip = 'Specifies Code.', Comment = 'CSY="Určuje kód"';
                 }
                 field(Description; Rec.Description)
                 {
-                    Caption = 'Description', Comment = 'CSY="Popis"';
                     ToolTip = 'Specifies Description.', Comment = 'CSY="Určuje popis"';
                 }
                 field(Risk; Rec.Risk)
                 {
-                    Caption = 'Risk', Comment = 'CSY="Riziko"';
                     ToolTip = 'Specifies level of risk.', Comment = 'CSY="Určuje úroveň rizika"';
+                }
+                field("Responsible Employee"; Rec."Responsible Employee")
+                {
+                    ToolTip = 'Specifies responsible employee.', Comment = 'CSY="Určuje odpovědnou osobu."';
                 }
             }
         }

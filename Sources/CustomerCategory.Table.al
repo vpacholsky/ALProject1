@@ -10,16 +10,19 @@ table 50100 "Customer Category TUL"
         {
             Caption = 'Code', Comment = 'CSY="Kód"';
             NotBlank = true;
-
         }
         field(10; Description; Text[100])
         {
             Caption = 'Description', Comment = 'CSY="Popis"';
-
         }
         field(20; Risk; Enum "Risk TUL")
         {
             Caption = 'Risk', Comment = 'CSY="Riziko"';
+        }
+        field(30; "Responsible Employee"; Code[20])
+        {
+            Caption = 'Responsible Employee', Comment = 'CSY="Odpovědný zaměstnanec"';
+            TableRelation = Employee;
         }
     }
 
