@@ -26,6 +26,10 @@ report 50100 "Customer Balance TUL"
             {
                 IncludeCaption = true;
             }
+            column(City; "City")
+            {
+                IncludeCaption = true;
+            }
             column(Balance__LCY_; "Balance (LCY)")
             {
                 IncludeCaption = true;
