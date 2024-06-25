@@ -1,0 +1,11 @@
+{
+    "name":"Tulipize rules",
+    "rules": [
+        {
+        "id": "AS0084",
+        "action": "Hidden",
+        "justification": "ID Range"
+    }
+
+    ]
+}

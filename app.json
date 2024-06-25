@@ -1,0 +1,36 @@
+{
+  "id": "830b7adf-cb21-4248-b20c-6ab5c9b66278",
+  "name": "ALProject1",
+  "publisher": "Tulip",
+  "version": "1.0.0.0",
+  "brief": "Project one",
+  "description": "This is project one",
+  "privacyStatement": "http://tulipize.com",
+  "EULA": "http://tulipize.com",
+  "help": "http://tulipize.com",
+  "url": "http://tulipize.com/project1",
+  "logo": "Tulip_logo_small.png",
+  "contextSensitiveHelpUrl": "http://tulipize.com",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "24.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "applicationInsightsConnectionString": "00000000-0000-0000-0000-00000000",
+  "target": "Cloud"
+}
