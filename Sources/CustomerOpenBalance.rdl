@@ -753,6 +753,12 @@ End Function
         <Field Name="CreditLimitLCYFormat">
           <DataField>CreditLimitLCYFormat</DataField>
         </Field>
+        <Field Name="FullAddress">
+          <DataField>FullAddress</DataField>
+        </Field>
+        <Field Name="GlobalDimension1CodeTUL">
+          <DataField>GlobalDimension1CodeTUL</DataField>
+        </Field>
       </Fields>
       <Query>
         <DataSourceName>DataSource</DataSourceName>

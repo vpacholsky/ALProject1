@@ -747,8 +747,17 @@ End Function
         <Field Name="Remaining_Amt_LCYFormat">
           <DataField>Remaining_Amt_LCYFormat</DataField>
         </Field>
+        <Field Name="CreditLimitLCY">
+          <DataField>CreditLimitLCY</DataField>
+        </Field>
+        <Field Name="CreditLimitLCYFormat">
+          <DataField>CreditLimitLCYFormat</DataField>
+        </Field>
         <Field Name="FullAddress">
           <DataField>FullAddress</DataField>
+        </Field>
+        <Field Name="GlobalDimension1CodeTUL">
+          <DataField>GlobalDimension1CodeTUL</DataField>
         </Field>
       </Fields>
       <Query>
