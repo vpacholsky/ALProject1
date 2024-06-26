@@ -43,5 +43,4 @@ table 50100 "Customer Category TUL"
 
         }
     }
-
 }

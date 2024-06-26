@@ -37,7 +37,6 @@ report 50100 "Customer Balance TUL"
         }
     }
 
-
     rendering
     {
         layout(LayoutRDL)

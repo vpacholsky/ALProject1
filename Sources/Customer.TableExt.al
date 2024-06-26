@@ -18,5 +18,4 @@ tableextension 50100 "Customer TUL" extends Customer
 
         }
     }
-
 }

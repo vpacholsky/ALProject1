@@ -15,6 +15,4 @@ pageextension 50103 "Customer List TUL" extends "Customer List"
             }
         }
     }
-
-
 }

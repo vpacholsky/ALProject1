@@ -1,7 +1,5 @@
 pageextension 50104 "Vendor List TUL" extends "Vendor List"
 {
-
-
     actions
     {
         addlast(processing)

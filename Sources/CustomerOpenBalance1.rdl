@@ -878,8 +878,8 @@ End Function
         <Field Name="CreditLimitLCYFormat">
           <DataField>CreditLimitLCYFormat</DataField>
         </Field>
-        <Field Name="FullAddress">
-          <DataField>FullAddress</DataField>
+        <Field Name="FullAddressTUL">
+          <DataField>FullAddressTUL</DataField>
         </Field>
         <Field Name="GlobalDimension1CodeTUL">
           <DataField>GlobalDimension1CodeTUL</DataField>

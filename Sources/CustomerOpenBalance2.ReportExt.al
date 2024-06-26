@@ -2,10 +2,9 @@ reportextension 50101 "Customer Open Balance2 TUL" extends "Customer Open Balanc
 {
     dataset
     {
-        // Add changes to dataitems and columns here
         add(Customer)
         {
-            column(FullAddress; FullAddress)
+            column(FullAddressTUL; FullAddress)
             {
             }
         }
@@ -21,11 +20,6 @@ reportextension 50101 "Customer Open Balance2 TUL" extends "Customer Open Balanc
         }
     }
 
-    requestpage
-    {
-        // Add changes to the requestpage here
-    }
-
     rendering
     {
         layout(Layout2)
@@ -37,5 +31,4 @@ reportextension 50101 "Customer Open Balance2 TUL" extends "Customer Open Balanc
 
     var
         FullAddress: Text;
-
 }
