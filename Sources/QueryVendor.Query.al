@@ -2,7 +2,7 @@ query 50101 "Query Vendor TUL"
 {
     QueryType = Normal;
     Caption = 'Query Vendor', Comment = 'CSY="Query Vendor"';
-    // OrderBy = Vendor."Amount (LCY)" Ascending;
+    OrderBy = ascending(Amount_LCY);
 
     elements
     {

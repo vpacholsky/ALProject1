@@ -3,13 +3,13 @@ query 50100 "Query Customer TUL"
 
     QueryType = Normal;
     Caption = 'Query Customer', Comment = 'CSY="Query Customer"';
-    //OrderBy = CustLedgEntry."Amount (LCY)";
+    OrderBy = ascending(AmountLCY);
 
     elements
     {
         dataitem(Customer; Customer)
         {
-            //DataItemTableFilter = where(Blocked = false)
+            DataItemTableFilter = Blocked = filter(false);
             column(No; "No.")
             {
             }
