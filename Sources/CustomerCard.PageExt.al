@@ -9,6 +9,7 @@ pageextension 50101 "Customer Card TUL" extends "Customer Card"
                 ApplicationArea = Basic, Suite;
                 Caption = 'Customer Category Code', Comment = 'CSY="Kód kategorie zakaznika"';
                 ToolTip = 'Specifies category of Customer.', Comment = 'CSY="Určuje kategorii zákazníka."';
+
                 trigger OnValidate()
                 begin
                     Rec.CalcFields("Risk TUL");
@@ -29,5 +30,4 @@ pageextension 50101 "Customer Card TUL" extends "Customer Card"
         }
         moveafter("Post Code"; City)
     }
-
 }

@@ -18,5 +18,4 @@ pagecustomization "Chart of Account TUL" customizes "Chart of Accounts"
             Visible = false;
         }
     }
-
 }

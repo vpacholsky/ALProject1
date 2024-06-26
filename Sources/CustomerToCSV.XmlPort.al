@@ -32,6 +32,4 @@ xmlport 50100 "Customer to CSV TUL"
 
         }
     }
-
-
 }
