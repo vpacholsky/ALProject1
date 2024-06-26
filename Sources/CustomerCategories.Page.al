@@ -12,7 +12,7 @@ page 50100 "Customer Categories TUL"
         {
             repeater(Control1)
             {
-                field("Code"; rec.Code)
+                field("Code"; Rec.Code)
                 {
                     ToolTip = 'Specifies Code.', Comment = 'CSY="Určuje kód"';
                 }
@@ -30,7 +30,7 @@ page 50100 "Customer Categories TUL"
                 }
             }
         }
-        area(Factboxes)
+        area(FactBoxes)
         {
 
             systempart(Notes; Notes)

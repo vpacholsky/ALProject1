@@ -86,8 +86,7 @@ report 50101 "Customer Open Balance TUL"
                     {
                         Caption = 'PrintDetail', Comment = 'CSY="Tisknout detail"';
                         ApplicationArea = Basic, Suite;
-                        ToolTip = 'Allows print customer ledger entries', Comment = 'CSY="Umožní tisk položek zákazníka"';
-
+                        ToolTip = 'Specifies print customer ledger entries.', Comment = 'CSY="Určuje možnost tisku položek zákazníka."';
                     }
                 }
             }

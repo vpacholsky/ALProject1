@@ -1,6 +1,6 @@
-xmlport 50100 "CustomerToCSV TUL"
+xmlport 50100 "Customer to CSV TUL"
 {
-    Caption = 'Customer to CSV', comment = 'CSY="Zákazník do CSV"';
+    Caption = 'Customer to CSV', Comment = 'CSY="Zákazník do CSV"';
     Direction = Export;
     Format = VariableText;
     FieldSeparator = '<TAB>';

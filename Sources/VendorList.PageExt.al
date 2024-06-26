@@ -14,7 +14,7 @@ pageextension 50104 "Vendor List TUL" extends "Vendor List"
                 Ellipsis = true;
                 Image = Export;
                 RunObject = xmlport "Vendor To CSV TUL";
-                ToolTip = 'Export all vendors to CSV', Comment = 'CSY="Exportujete všechny dodavatele do CSV"';
+                ToolTip = 'Export all vendors to CSV.', Comment = 'CSY="Exportujete všechny dodavatele do CSV."';
             }
         }
     }

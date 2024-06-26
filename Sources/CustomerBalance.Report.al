@@ -1,6 +1,6 @@
 report 50100 "Customer Balance TUL"
 {
-    Caption = 'Customer Balance', comment = 'CSY="Saldo zákazníka"';
+    Caption = 'Customer Balance', Comment = 'CSY="Saldo zákazníka"';
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = Basic, Suite;
     DefaultRenderingLayout = LayoutRDL;

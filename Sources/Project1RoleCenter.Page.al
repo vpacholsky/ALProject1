@@ -22,7 +22,7 @@ page 50101 "Project 1 Role Center TUL"
             action(SalesOrder)
             {
                 Caption = 'Sales Order';
-                RunObject = Page "Sales Order";
+                RunObject = page "Sales Order";
                 ToolTip = 'Create new Sales Order.';
             }
         }
@@ -34,7 +34,7 @@ page 50101 "Project 1 Role Center TUL"
                 action(Item)
                 {
                     Caption = 'Item List';
-                    RunObject = Page "Item List";
+                    RunObject = page "Item List";
                 }
             }
         }
@@ -43,7 +43,7 @@ page 50101 "Project 1 Role Center TUL"
             action(Accounts)
             {
                 Caption = 'Chart of Accounts';
-                RunObject = Page "Chart of Accounts";
+                RunObject = page "Chart of Accounts";
             }
         }
     }

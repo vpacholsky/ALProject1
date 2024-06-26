@@ -6,7 +6,7 @@ codeunit 50101 "Posting Handler TUL"
     var
         TooOldErr: Label 'Posting Date is older than year';
     begin
-        if calcdate('<1Y>', GenJournalLine."Posting Date") < Today then
+        if CalcDate('<1Y>', GenJournalLine."Posting Date") < Today then
             Error(TooOldErr);
     end;
 }

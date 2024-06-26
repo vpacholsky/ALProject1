@@ -8,7 +8,7 @@ pageextension 50101 "Customer Card TUL" extends "Customer Card"
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Customer Category Code', Comment = 'CSY="Kód kategorie zakaznika"';
-                ToolTip = 'Specifies category of Customer', Comment = 'CSY="Určuje kategorii zákazníka"';
+                ToolTip = 'Specifies category of Customer.', Comment = 'CSY="Určuje kategorii zákazníka."';
                 trigger OnValidate()
                 begin
                     Rec.CalcFields("Risk TUL");
@@ -17,7 +17,7 @@ pageextension 50101 "Customer Card TUL" extends "Customer Card"
             field("Risk TUL"; Rec."Risk TUL")
             {
                 ApplicationArea = Basic, Suite;
-                ToolTip = 'Specifies risk level of Customer', Comment = 'CSY="Určuje úroveň rizika zákazníka"';
+                ToolTip = 'Specifies risk level of Customer.', Comment = 'CSY="Určuje úroveň rizika zákazníka."';
                 DrillDown = false;
             }
 

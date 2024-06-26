@@ -8,7 +8,7 @@ codeunit 50100 "Customer Handler TUL"
         if Rec.IsTemporary then
             exit;
 
-        if Strlen(Rec.Name) < 5 then
-            message(NameShortMsg);
+        if StrLen(Rec.Name) < 5 then
+            Message(NameShortMsg);
     end;
 }

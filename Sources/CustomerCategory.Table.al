@@ -3,6 +3,8 @@ table 50100 "Customer Category TUL"
 {
     Caption = 'Customer Category', Comment = 'CSY="Kategorie zákazníka"';
     DataClassification = CustomerContent;
+    LookupPageId = "Customer Categories TUL";
+    DrillDownPageId = "Customer Categories TUL";
 
     fields
     {
