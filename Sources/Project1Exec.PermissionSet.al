@@ -4,6 +4,7 @@ permissionset 50101 "Project1 Exec TUL"
     Assignable = true;
     Permissions = table "Customer Category TUL" = X,
                 page "Customer Categories TUL" = X,
+                page "Customers API TUL" = X,
                 page "Project 1 Role Center TUL" = X,
                 codeunit "Posting Handler TUL" = X,
                 codeunit "Customer Handler TUL" = X,
