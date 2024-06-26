@@ -1,6 +1,8 @@
 query 50100 "Query Customer TUL"
 {
+
     QueryType = Normal;
+    Caption = 'Query Customer', Comment = 'CSY="Query Customer"';
     //OrderBy = CustLedgEntry."Amount (LCY)";
 
     elements

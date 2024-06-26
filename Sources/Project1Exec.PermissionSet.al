@@ -13,5 +13,6 @@ permissionset 50101 "Project1 Exec TUL"
                 xmlport "Customer to CSV TUL" = X,
                 xmlport "Vendor to CSV TUL" = X,
                 query "Query Vendor TUL" = X,
-                query "Query Item TUL" = X;
+                query "Query Item TUL" = X,
+                query "Query Customer TUL" = X;
 }
