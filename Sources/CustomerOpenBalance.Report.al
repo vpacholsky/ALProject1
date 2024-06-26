@@ -12,11 +12,9 @@ report 50101 "Customer Open Balance TUL"
             DataItemTableView = sorting("Primary Key");
             column(CompanyName; Name)
             {
-
             }
             column(Picture; Picture)
             {
-
             }
         }
 
@@ -24,25 +22,21 @@ report 50101 "Customer Open Balance TUL"
         {
             DataItemTableView = where(Balance = filter(<> 0));
             RequestFilterFields = "No.", "Currency Code";
+
             column(No; "No.")
             {
-
             }
             column(Name; Name)
             {
-
             }
             column(Balance_LCY; "Balance (LCY)")
             {
-
             }
             column(City; City)
             {
-
             }
             column(Address; Address)
             {
-
             }
 
             dataitem(CustLedgerEntry; "Cust. Ledger Entry")
@@ -53,28 +47,23 @@ report 50101 "Customer Open Balance TUL"
 
                 column(Document_Type; "Document Type")
                 {
-
                 }
                 column(Document_No; "Document No.")
                 {
-
                 }
                 column(Posting_Date; "Posting Date")
                 {
-
                 }
                 column(Remaining_Amount; "Remaining Amount")
                 {
-
                 }
                 column(Currency_Code; "Currency Code")
                 {
-
                 }
                 column(Remaining_Amt_LCY; "Remaining Amt. (LCY)")
                 {
-
                 }
+
                 trigger OnPreDataItem()
                 begin
                     if not PrintDetail then
