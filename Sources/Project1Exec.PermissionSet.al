@@ -7,6 +7,8 @@ permissionset 50101 "Project1 Exec TUL"
                 page "Project 1 Role Center TUL" = X,
                 codeunit "Posting Handler TUL" = X,
                 codeunit "Customer Handler TUL" = X,
+                codeunit "Install Application TUL" = X,
+                codeunit "Upgrade Application TUL" = X,
                 report "Customer Balance TUL" = X,
                 report "Customer Open Balance TUL" = X,
                 xmlport "Item to XML TUL" = X,
